@@ -1,0 +1,56 @@
+# Requirements for Keyence PLC DDoS Testing Tool
+# Install with: pip install -r requirements.txt
+
+# Core networking and attack libraries
+scapy==2.5.0
+requests==2.31.0
+urllib3==2.0.4
+
+# Multi-threading and performance
+concurrent-log-handler==0.9.20
+psutil==5.9.5
+
+# Network scanning and discovery
+python-nmap==0.7.1
+netaddr==0.8.0
+
+# Data manipulation and generation
+numpy==1.24.3
+faker==18.11.2
+
+# Command-line interface
+colorama==0.4.6
+rich==13.4.2
+tqdm==4.65.0
+
+# Logging and output
+python-json-logger==2.0.7
+
+# Security and cryptography
+cryptography==41.0.2
+pyOpenSSL==23.2.0
+
+# Utilities and compatibility
+six==1.16.0
+typing-extensions==4.7.1
+charset-normalizer==3.2.0
+certifi==2023.7.22
+
+# For HTTP attacks specifically
+httpcore==0.17.3
+httpx==0.24.1
+
+# For timing and synchronization
+python-dateutil==2.8.2
+pytz==2023.3
+
+# For potential PLC protocol analysis
+pyModbusTCP==0.2.0
+
+# For reporting and documentation
+markdown==3.4.4
+Jinja2==3.1.2
+
+# For data visualization (optional)
+matplotlib==3.7.2
+seaborn==0.12.2
